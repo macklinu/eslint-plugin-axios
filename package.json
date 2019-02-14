@@ -10,7 +10,8 @@
     "docs"
   ],
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint lib __tests__"
   },
   "dependencies": {},
   "devDependencies": {
