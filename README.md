@@ -11,6 +11,7 @@
 <!-- prettier-ignore -->
 | Name | Description | :heavy_check_mark: | :wrench: |
 | ---- | ----------- | ------------------ | -------- |
+| [`axios/consistent-method-casing`](./docs/rules/consistent-method-casing.md) | Enforce consistent casing of the `method` config property. |  |  |
 | [`axios/require-method`](./docs/rules/require-method.md) | Always declare a `method` property in your Axios API request config. |  |  |
 | [`axios/use-axios`](./docs/rules/use-axios.md) | Ensure that axios is imported with `axios` as the variable name. | :heavy_check_mark: |  |
 
