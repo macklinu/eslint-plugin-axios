@@ -53,7 +53,6 @@ ruleTester.run('consistent-method-casing', consistentMethodCasing, {
       output: `axios({ url: '/api/v1/example', method: "GET" })`,
     },
     {
-      // fixme: allow replacing template literal strings
       code: `axios({ url: '/api/v1/example', method: \`get\` })`,
       options: ['uppercase'],
       errors: [{ messageId: 'uppercase', type: 'ObjectExpression' }],
