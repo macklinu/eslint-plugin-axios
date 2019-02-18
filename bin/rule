@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+if [ -z "$1" ]; then
+ echo "Must supply a rule name (e.g. my-new-rule)"
+ exit 1
+fi
+
+touch "docs/rules/$1.md"
+touch "lib/rules/$1.js"
+touch "__tests__/rules/$1.js"
