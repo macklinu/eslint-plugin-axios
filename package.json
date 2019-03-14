@@ -15,12 +15,11 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "babel-jest": "^24.1.0",
     "eslint": "^5.14.1",
     "eslint-config-macklinu": "^1.4.0",
     "eslint-docs": "^0.4.0",
     "eslint-plugin-eslint-plugin": "^2.0.1",
-    "jest": "^24.1.0",
+    "jest": "^24.5.0",
     "prettier": "^1.16.4"
   }
 }
